@@ -5,137 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .master_container{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr)
-        justify-content: center;
+    .container{
+        width: 100%;
+        display: flex;
+        gap: 5px;
+        justify-content: space-evenly;
         align-items: center;
-        gap: 10px;
-        }
-        .container{
-            width: 100%;
-            border: 2px solid black;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        .container>div{
-            width: 30%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 10px;
-        }
-        .container>div>div:first-child>img{
-            display: flex;
-            width: 100%;
-        }
-        .container>div>div:nth-child(2){
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .container>div>div:nth-child(2)>h3,.container{
-            margin: 8px;
-        }
-        .container>div>div:last-child{
-             display: flex;
-             justify-content: center;
-        }
-        .container>div>div:last-child{
-            width: 50%;
-        }
+        margin: 20px;
+        
+    }
+    .container>div{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .container>div>div:first-child>img{
+       width: 100%;
+    }
+    .container>div>div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container>div>div:nth-child(2)>h3, .container>div>div:nth-child(2)>h4{
+        margin: 2px;
+    }
+    .container>div>div:last-child{
+        display: flex;
+        justify-content: center;
+    }
+    .container>div>div:last-child>img{
+       width: 50%;
+    }
     </style>
 </head>
 <body>
-    <div class="master_container">
+        <div class="container">
+            <!-- box1 -->
+            <div>
+                <!-- photo of invester div-->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
+                </div>
+                <!-- name and roll div -->
+                <div>
+                    <h3>Vijay Shekar Sharma</h3>
+                    <h4>Founder & CEO</h4>
+                </div>
+                <!-- company logo div -->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg">
+                </div>
+                <!-- box2 -->
+            </div> 
+            <div>
+                <!-- photo of invester div-->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/Rectangle_427_637d69bb57.png">
+                </div>
+                <!-- name and roll div -->
+                <div>
+                    <h3>Kunal Shah</h3>
+                    <h4>Founder</h4>
+                </div>
+                <!-- company logo div -->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/cred_0a47d7b4f8.png">
+                </div>
+            </div> 
+            <!-- box3 -->
+            <div>
+                <!-- photo of invester div-->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/amrish_rau_pine_labs_144e5e587c.jpg">
+                </div>
+                <!-- name and roll div -->
+                <div>
+                    <h3>Amrish Rau</h3>
+                    <h4>CEO</h4>
+                </div>
+                <!-- company logo div -->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/pine_labs_0aa2407434.png">
+                </div>
+            </div> 
+            <!-- box4 -->
+            <div>
+                <!-- photo of invester div-->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/Sampad_swain_Instamojo_f12bf6341e.jpg">
+                </div>
+                <!-- name and roll div -->
+                <div>
+                    <h3>Sampad Swain</h3>
+                    <h4>Founder & CEO</h4>
+                </div>
+                <!-- company logo div -->
+                <div>
+                    <img src="https://cdn.masaischool.com/masai-website/instamojo_8763e704f7.png">
+                </div>
+            </div> 
+             <!-- box5 -->
+        </div> 
         <div class="container">
             <div>
+                <!-- photo of invester div-->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
+                    <img src="https://cdn.masaischool.com/masai-website/Ankush_Sachdeva_Sharechat_4e44dbbe6b.jpg">
                 </div>
+                <!-- name and roll div -->
                 <div>
-                    <h3>Vijay Shekar Sharma</h3>
+                    <h3>Ankush Sachdeva</h3>
                     <h4>Founder & CEO</h4>
                 </div>
+                <!-- company logo div -->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg">
+                    <img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg">
                 </div>
-            </div>
-        </div>
-         <div class="container">
+            </div> 
+            <!-- box6 -->
             <div>
+                <!-- photo of invester div-->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
+                    <img src="https://cdn.masaischool.com/masai-website/bhanu_pratap_singh_sharechat_11fdd7b47a.jpg">
                 </div>
+                <!-- name and roll div -->
                 <div>
-                    <h3>Vijay Shekar Sharma</h3>
-                    <h4>Founder & CEO</h4>
+                    <h3>Bhanu Pratap Singh</h3>
+                    <h4>Co-Founder & CTO</h4>
                 </div>
+                <!-- company logo div -->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg">
+                    <img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg">
                 </div>
-            </div>
-        </div>
-         <div class="container">
+            </div> 
+            <!-- box7 -->
             <div>
+                <!-- photo of invester div-->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
+                    <img src="https://cdn.masaischool.com/masai-website/farid_ahsan_sharechat_1251f28141.png">
                 </div>
+                <!-- name and roll div -->
                 <div>
-                    <h3>Vijay Shekar Sharma</h3>
-                    <h4>Founder & CEO</h4>
+                    <h3>Farid Ahsan</h3>
+                    <h4>Co-Founder & COO</h4>
                 </div>
+                <!-- company logo div -->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg">
+                    <img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg">
                 </div>
-            </div>
-        </div>
-    </div>
-     <div class="master_container">
-        <div class="container">
+            </div> 
+            <!-- box8 -->
             <div>
+                <!-- photo of invester div-->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
+                    <img src="https://cdn.masaischool.com/masai-website/Amit_Kumar_Agarwal_Nobroker_a8a279ad91.jpg">
                 </div>
+                <!-- name and roll div -->
                 <div>
-                    <h3>Vijay Shekar Sharma</h3>
+                    <h3>Amit Kumar Agarwal</h3>
                     <h4>Founder & CEO</h4>
                 </div>
+                <!-- company logo div -->
                 <div>
-                    <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg">
+                    <img src="https://cdn.masaischool.com/masai-website/nobroker_rect_28c9778c30.svg">
                 </div>
-            </div>
-        </div>
-         <div class="container">
-            <div>
-                <div>
-                    <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-                </div>
-                <div>
-                    <h3>Vijay Shekar Sharma</h3>
-                    <h4>Founder & CEO</h4>
-                </div>
-                <div>
-                    <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg">
-                </div>
-            </div>
-        </div>
-         <div class="container">
-            <div>
-                <div>
-                    <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg">
-                </div>
-                <div>
-                    <h3>Vijay Shekar Sharma</h3>
-                    <h4>Founder & CEO</h4>
-                </div>
-                <div>
-                    <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg">
-                </div>
-            </div>
-        </div>
-    </div>
-
+            </div> 
+        </div> 
+        
 </body>
 </html>
+
+
+
