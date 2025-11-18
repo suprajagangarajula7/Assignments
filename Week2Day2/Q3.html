@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(255, 252, 252, 0.899);
+            padding: 40px;
+        }
+        h1{
+            color: teal;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: large;
+        }
+        .calculator{
+            width: 320px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 12px;
+            
+        }
+        .display{
+            height: 60px;
+            background-color: #eae6e6;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            
+        }
+        .keys{
+            display: grid;
+            grid-template-columns: repeat(4, 70px);
+            gap: 12px;
+            justify-content: center;
+            
+        }
+        .btn{
+            height: 60px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+       .num{
+        border-color: white;
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+       } 
+       .op{
+        background-color: black;
+        color: white;
+       }
+       .c{
+        background-color: red;
+        color: white;
+       }
+       .equal{
+        background-color: black;
+        color: white;
+       }
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div class="calculator">
+     <div class="display"></div>
+
+<div class="keys">
+     <div class="btn num">1</div>
+     <div class="btn num">2</div>
+     <div class="btn num">3</div>
+     <div class="btn op">+</div>
+
+      <div class="btn num">4</div>
+     <div class="btn num">5</div>
+     <div class="btn num">6</div>
+     <div class="btn op">-</div>
+
+      <div class="btn num">7</div>
+     <div class="btn num">8</div>
+     <div class="btn num">9</div>
+     <div class="btn op">x</div>
+
+     <div class="btn c">C</div>
+     <div class="btn num">0</div>
+     <div class="btn equal">=</div>
+     <div class="btn op">/</div>
+</div>
+
+</div> 
+
+</body>
+</html>
