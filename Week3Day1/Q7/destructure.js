@@ -6,3 +6,6 @@ const user = {
     pin: 560001
   }
 };
+const { name, address: { city, pin } } = user;
+const result = `${name} lives in ${city}, pin ${pin}`;
+console.log(result);
