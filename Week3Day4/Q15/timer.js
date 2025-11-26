@@ -13,7 +13,7 @@ let intervalId = setInterval(() => {
 
 function checkStopKey() {
     document.addEventListener("keydown", (event) => {
-        if (event.key.toLowerCase() === "s") {
+        if (event.key() === "s") {
             clearInterval(intervalId);
             console.log("Countdown Stopped by User!");
         }
