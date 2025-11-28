@@ -16,7 +16,7 @@
     // JavaScript code with bugs
     const para = document.querySelector('#message'); // Corrected the massage spelling to message in id
     const textButton = document.getElementById('textButton'); // changed method from name to getElementById
-    textButton.addEventListener("click",() => { // Incorrect method name-corrected by removing the "click"
+    textButton.addEventListener("click",() => { // Incorrect method name-corrected by removing the click and assing click to the arrow function
       para.textContent = 'New Message'; // Incorrect property contentText-changed it to textContent 
     });
 
