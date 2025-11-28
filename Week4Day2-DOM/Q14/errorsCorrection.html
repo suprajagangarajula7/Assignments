@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debugging Task</title>
+</head>
+<body>
+  <p id="message">Original Message</p>
+  <button id="textButton">Change Text</button>
+  <br><br>
+  <div id="box" style="width: 100px; height: 100px; background-color: lightgray;"></div>
+  <button id="colorButton">Change Background</button>
+
+  <script>
+    // JavaScript code with bugs
+    const para = document.querySelector('#message'); // Corrected the massage spelling to message in id
+    const textButton = document.getElementById('textButton'); // changed method from name to getElementById
+    textButton.addEventListener("click",() => { // Incorrect method name-corrected by removing the "click"
+      para.textContent = 'New Message'; // Incorrect property contentText-changed it to textContent 
+    });
+
+    const box = document.getElementById('box');
+    const colorButton = document.getElementById('colorButton');
+    colorButton.addEventListener('click', () => {
+      box.style.backgroundColor = 'blue'; // Typo in 'style'
+    });
+  </script>
+</body>
+</html>
+
