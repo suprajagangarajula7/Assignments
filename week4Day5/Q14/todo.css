@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ /* Part2*/
+.container{
+  background: white;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.completed{
+  text-decoration: line-through;
+  background: #cbd5e1;
+}
+
+btns button{
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+.doneBtn{ background: #22c55e; color: white; }
+.editBtn{ background: #facc15; }
+.deleteBtn{ background: #ef4444; color: white; } */
+
+/*part3 */
+
+Dark Mode
+.dark{ background: #344e77; color: white; }
+.dark .container{ background: #0879cf; }
+.dark ul li{ background: #334155; color: white; }
+.dark .completed{ background: #475569; } 

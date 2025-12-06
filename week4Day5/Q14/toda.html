@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced To-Do List</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>To-Do List</h2>
+    <!-- /part 1 -->
+ <button id="themeBtn">Dark Mode</button> 
+    
+
+    <input type="text" id="searchInput" placeholder="Search tasks..."><br><br>
+
+    <div class="inputBox">
+      <input type="text" id="taskInput" placeholder="Enter your task...">
+      <input type="date" id="taskDate">
+
+      <select id="taskCategory">
+        <option>Study</option>
+        <option>Personal</option>
+        <option>Work</option>
+      </select>
+
+      <select id="taskPriority">
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+      </select><br><br>
+
+      <!-- Part 1 End -->
+
+      <!-- Part2 start -->
+      <button id="addBtn">Add Task</button>
+    </div> <br><br>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>
