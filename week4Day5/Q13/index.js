@@ -3,7 +3,7 @@ showData();
 function saveData(){
   let n=document.getElementById("notes").value;
   if(n===""){
-    document.getElementById("msg").innerHTML="please enter name";
+    document.getElementById("msg").innerHTML="please enter notes";
     return;
   }
   let d=JSON.parse(localStorage.getItem("list")) || [];
