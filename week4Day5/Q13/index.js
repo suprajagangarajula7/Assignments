@@ -29,7 +29,7 @@ function showData(){
         <td>${i+1}</td>
         <td>${d[i]}</td>
         <td>
-          <button onclick="deletData(${i})">Delete</button>
+          <button onclick="deleteData(${i})">Delete</button>
           </td>
           </tr>`;
  }
